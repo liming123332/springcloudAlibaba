@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+server:
+  port: 9090
+
+feign:
+  sentinel:
+    enabled: true
